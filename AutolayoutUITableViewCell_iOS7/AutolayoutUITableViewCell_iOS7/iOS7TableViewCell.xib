@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="44" id="KGk-i7-Jjw" customClass="iOS7TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UHw-BC-saS">
+                        <rect key="frame" x="8" y="2" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="BGO-ag-zbh">
+                        <rect key="frame" x="56" y="2" width="256" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UHw-BC-saS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-6" id="DQi-f6-GCv"/>
+                    <constraint firstItem="BGO-ag-zbh" firstAttribute="leading" secondItem="UHw-BC-saS" secondAttribute="trailing" constant="8" id="P1A-hq-2G9"/>
+                    <constraint firstItem="BGO-ag-zbh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-6" id="VoD-cC-sBo"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="UHw-BC-saS" secondAttribute="bottom" constant="-7" id="dCt-7q-qbw"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="BGO-ag-zbh" secondAttribute="bottom" constant="-7" id="dW5-Sj-GgE"/>
+                    <constraint firstItem="BGO-ag-zbh" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="gKM-Gj-vBo"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="UHw-BC-saS" secondAttribute="trailing" constant="264" id="iSx-23-yCz"/>
+                    <constraint firstItem="UHw-BC-saS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="kbR-Vr-KyU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailLabel" destination="BGO-ag-zbh" id="ppa-D7-sb9"/>
+            </connections>
+            <point key="canvasLocation" x="253" y="285"/>
+        </tableViewCell>
+    </objects>
+</document>

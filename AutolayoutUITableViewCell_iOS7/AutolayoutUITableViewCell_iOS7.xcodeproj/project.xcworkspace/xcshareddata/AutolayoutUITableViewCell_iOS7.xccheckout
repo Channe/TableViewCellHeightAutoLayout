@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>750E1641-21FA-4B80-958F-6E563D69282E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AutolayoutUITableViewCell_iOS7</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>71CDA0BEC66EA0EAA6381963B8983F1489DE7283</key>
+		<string>https://github.com/Channe/iOS-Demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AutolayoutUITableViewCell_iOS7/AutolayoutUITableViewCell_iOS7.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>71CDA0BEC66EA0EAA6381963B8983F1489DE7283</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Channe/iOS-Demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>71CDA0BEC66EA0EAA6381963B8983F1489DE7283</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>71CDA0BEC66EA0EAA6381963B8983F1489DE7283</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
